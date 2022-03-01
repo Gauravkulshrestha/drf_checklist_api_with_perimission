@@ -1,4 +1,3 @@
-from email.policy import default
 from rest_framework import serializers
 from .models import Checklist, ChecklistItem
 from django.contrib.auth.models import User

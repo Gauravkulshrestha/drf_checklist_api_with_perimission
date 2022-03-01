@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
 from api.views import RegisterAPIView, LogOutAPIView, CheckListView, CheckListsView, CheckListItemAPIView,  CheckListItemCreateAPIView
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
